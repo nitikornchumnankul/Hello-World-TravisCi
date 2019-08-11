@@ -6,6 +6,6 @@ node_js:
 install:
   - npm install
 # before_script: 
-#   - chmod 777 ./node_modules/.bin/jest
+#   - chmod 777 ./node_modules/.bin/jest1
 script:
   - npm test
