@@ -1,9 +1,11 @@
 language: node_js
 node_js:
-  - 11.6.0
-cache: npm
+  - "node"
+
 
 install:
   - npm install
+before_script: 
+  - chmod 777 ./node_modules/.bin/jest
 script:
   - npm test
