@@ -1,25 +1,23 @@
 {
-  "name": "hello-world-circleci",
+  "name": "customers",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nitikornchumnankul/Hello-World-CircleCi.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nitikornchumnankul/Hello-World-CircleCi/issues"
-  },
-  "homepage": "https://github.com/nitikornchumnankul/Hello-World-CircleCi#readme",
-  "devDependencies": {
-    "jest": "^24.8.0"
-  },
   "dependencies": {
-    "axios": "^0.19.0"
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "jest": "25.1.0",
+    "mongoose": "5.8.11",
+    "nodemon": "2.0.2",
+    "multer": "1.4.2"
+  
   }
 }
